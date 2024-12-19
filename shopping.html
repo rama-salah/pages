@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pharmacy Store: Shop Medicines in various categories.">
+    <title>Pharmacy Store - Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="shopping.html">Shop Medicines</a>
+        </nav>
+        <h1>Shop Medicines</h1>
+    </header>
+
+    <main class="shopping-container">
+        <section class="categories">
+            <!-- الأقسام المختلفة -->
+            <div class="category">
+                <h2>Baby Care</h2>
+                <img src="images/baby-care.jpg.jpg" alt="Baby Care">
+                <p>Products for baby care and safety.</p>
+                <p class="price">$20.00</p>
+                <button class="add-to-cart" data-name="Baby Care" data-price="20.00">Add to Cart</button>
+            </div>
+            <div class="category">
+                <h2>Diabetes Care</h2>
+                <img src="images/diabetes-care.jpg.jpg" alt="Diabetes Care">
+                <p>Solutions for diabetes management.</p>
+                <p class="price">$30.00</p>
+                <button class="add-to-cart" data-name="Diabetes Care" data-price="30.00">Add to Cart</button>
+            </div>
+            <div class="category">
+                <h2>Eye Care</h2>
+                <img src="images/eye-care.jpg.jpg" alt="Eye Care">
+                <p>Keep your eyes healthy and protected.</p>
+                <p class="price">$15.00</p>
+                <button class="add-to-cart" data-name="Eye Care" data-price="15.00">Add to Cart</button>
+            </div>
+            <div class="category">
+                <h2>Hair Care</h2>
+                <img src="images/hair-care.jpg.jpg" alt="Hair Care">
+                <p>Products for strong and healthy hair.</p>
+                <p class="price">$25.00</p>
+                <button class="add-to-cart" data-name="Hair Care" data-price="25.00">Add to Cart</button>
+            </div>
+            <div class="category">
+                <h2>Immune Support</h2>
+                <img src="images/immune-support.jpg.jpg" alt="Immune Support">
+                <p>Boost your immune system.</p>
+                <p class="price">$35.00</p>
+                <button class="add-to-cart" data-name="Immune Support" data-price="35.00">Add to Cart</button>
+            </div>
+            <div class="category">
+                <h2>Weight Management</h2>
+                <img src="images/weight-management.jpg.jpg" alt="Weight Management">
+                <p>Maintain a healthy weight.</p>
+                <p class="price">$40.00</p>
+                <button class="add-to-cart" data-name="Weight Management" data-price="40.00">Add to Cart</button>
+            </div>
+            
+
+        </section>
+        
+        
+        <!-- قسم الفاتورة -->
+        <aside class="invoice">
+            <h2>Invoice</h2>
+            <div id="cart-items">
+                <p>No items added to the cart yet.</p>
+            </div>
+            <p><strong>Total: $<span id="total-price">0.00</span></strong></p>
+        </aside>
+        
+        
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
